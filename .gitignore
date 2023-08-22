@@ -1,0 +1,26 @@
+# local .terraform directory
+.terraform/*
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# tf variables file
+*.tfvars
+
+# VS Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#Script
+entry-script.sh
+
+# Logs
+crash.log
+
+#mac hidden files 
+.DS_*
