@@ -16,9 +16,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-#Script
-entry-script.sh
-
 # Logs
 crash.log
 
